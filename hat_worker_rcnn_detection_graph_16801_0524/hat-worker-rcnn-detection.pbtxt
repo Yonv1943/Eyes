@@ -1,0 +1,20 @@
+item {
+ id: 1
+ name: 'head'
+}
+item {
+ id: 2
+ name: 'safety_hat_ok'
+}
+item {
+ id: 3
+ name: 'worker_t2_alert'
+}
+item {
+ id: 4
+ name: 'worker_t2_ok'
+}
+item {
+ id: 5
+ name: 'worker_alert'
+}
