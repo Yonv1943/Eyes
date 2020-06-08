@@ -358,7 +358,7 @@ class InceptionI3d(nn.Module):
 
 class I3D:
     def __init__(self):
-        mod_path, num_classes = './weights_of_I3D/rgb_imagenet.pt', 400
+        mod_path, num_classes = './models/rgb_imagenet.pt', 400
         # mod_path, num_classes = './models/rgb_charades.pt', 157
 
         torch.set_default_dtype(torch.float32)

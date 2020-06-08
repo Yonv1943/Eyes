@@ -1,0 +1,18 @@
+In code 'run_i3d_pytorch.py', you will see the following:
+```
+class I3D:
+    def __init__(self):
+        mod_path, num_classes = './models/rgb_imagenet.pt', 400
+        # mod_path, num_classes = './models/rgb_charades.pt', 157
+```
+
+
+You should download the weights files of I3D from there.¡ý
+https://github.com/piergiaj/pytorch-i3d/tree/master/models
+
+
+There are 4 pytorch weights files:
+flow_charades.pt	# opticalflow, pre-training in dataset 'charades'.
+flow_imagenet.pt	# opticalflow, pre-training in dataset 'imagenet'.
+rgb_charades.pt		# rgb-based, pre-training in dataset 'charades'.
+rgb_imagenet.pt		# rgb-based, pre-training in dataset 'imagenet'.
